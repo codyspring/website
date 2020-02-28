@@ -1,0 +1,22 @@
+{
+  "name": "codyspring",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build & next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.2.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
+    "postcss-import": "^12.0.1"
+  }
+}
